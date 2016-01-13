@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+
+
 public class MainActivity extends AppCompatActivity {
 
     private int state;
@@ -15,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button bD, b_calc, b_dot;
     private Button b_plus, b_minus, b_mult, b_div;
     private TextView input, result;
-    //private RequestQueue queue;
+    private RequestQueue queue;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
