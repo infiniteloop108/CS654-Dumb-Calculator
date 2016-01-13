@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Akshay DAC</string>
+    <string name="web_server">localhost</string>
 </resources>
