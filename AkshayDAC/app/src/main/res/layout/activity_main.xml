@@ -210,7 +210,7 @@
             android:layout_height="match_parent"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:text="D"
+            android:text="Del"
             android:onClick="pressD"
             android:id="@+id/button_D"
             android:layout_weight="1"
