@@ -13,3 +13,7 @@ sudo mkdir /var/redis/6379
 
 To initialise redis server run ./redis\_init\_script start
 Then to start web server run npm start (in web-server/)
+
+For android app, open the project in android studio.
+Replace the string web-server in strings.xml with the server address of the server started above.
+Deploy it on your phone
