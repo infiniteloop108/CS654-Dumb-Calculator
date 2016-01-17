@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="Press numbers to input"
             android:id="@+id/text_input"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:layout_weight="1"
             android:textIsSelectable = "true"
             />
@@ -49,7 +49,7 @@
             android:layout_weight="1"
             android:onClick="press7"
             android:id="@+id/button_7"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -60,7 +60,7 @@
             android:onClick="press8"
             android:id="@+id/button_8"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -71,7 +71,7 @@
             android:id="@+id/button_9"
             android:onClick="press9"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -82,7 +82,7 @@
             android:id="@+id/button_plus"
             android:onClick="pressplus"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
@@ -104,7 +104,7 @@
             android:onClick="press4"
             android:id="@+id/button_4"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -115,7 +115,7 @@
             android:onClick="press5"
             android:id="@+id/button_5"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -126,7 +126,7 @@
             android:id="@+id/button_6"
             android:onClick="press6"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -137,7 +137,7 @@
             android:id="@+id/button_minus"
             android:onClick="pressminus"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
@@ -159,7 +159,7 @@
             android:layout_weight="1"
             android:id="@+id/button_1"
             android:onClick="press1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -170,7 +170,7 @@
             android:onClick="press2"
             android:id="@+id/button_2"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -181,7 +181,7 @@
             android:onClick="press3"
             android:id="@+id/button_3"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -192,7 +192,7 @@
             android:id="@+id/button_mult"
             android:onClick="pressmult"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
@@ -211,10 +211,11 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:text="Del"
-            android:onClick="pressD"
+            android:onClick="pressdel"
+            android:longClickable="true"
             android:id="@+id/button_D"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -225,7 +226,7 @@
             android:onClick="press0"
             android:id="@+id/button_0"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -236,7 +237,7 @@
             android:id="@+id/button_dot"
             android:onClick="pressdot"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:layout_width="0dp"
@@ -247,7 +248,7 @@
             android:onClick="pressdiv"
             android:id="@+id/button_div"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
     </LinearLayout>
 
@@ -268,10 +269,10 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:text="Calc"
-            android:onClick="pressCalc"
+            android:onClick="presscalc"
             android:id="@+id/button_calc"
             android:layout_weight="1"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -280,7 +281,7 @@
             android:paddingRight="16dp"
             android:text="Result"
             android:id="@+id/text_result"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:layout_weight="1"
             android:textIsSelectable = "true"
             />
