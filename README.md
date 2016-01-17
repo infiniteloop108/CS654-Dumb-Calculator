@@ -8,8 +8,7 @@ Course Assignment. An android app which does mundane calculations with the help 
 3. Android Studio (with sdk 22, 23)
 
 ##Setting up redis:
-Download the latest redis and install it
-You next need to setup directories for redis persistence/temp files
+Download the latest redis and install it. You next need to setup directories for redis persistence/temp files
 
 	sudo mkdir /etc/redis
 	sudo mkdir /var/redis
